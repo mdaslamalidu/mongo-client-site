@@ -33,7 +33,7 @@ const Update = () => {
 
     return (
         <div>
-            <h2>Please Update {stordUser.name}</h2>
+            <h2>Please Update user: {stordUser.name}</h2>
              <form onSubmit={handleUpdateSubmit}>
                 <input onChange={handleChange} type="text" defaultValue={stordUser.name} name="name" id="" placeholder='name'/>
                 <br/>
